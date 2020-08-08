@@ -1,4 +1,4 @@
-# baf-react-parcel 📦⚛️
+# baf-react-parcel ⚛️📦
 Super basic react template using parcel.
 
 ## Setup
