@@ -11,3 +11,8 @@ In your terminal
 
 ## 🚀 Run it
 `npm start`
+
+# Inpiration 💡
+
+* [cpa](https://github.com/ericmurphyxyz/cpa)
+* [crap 💩](https://github.com/assuncaocharles/create-react-app-parcel)
