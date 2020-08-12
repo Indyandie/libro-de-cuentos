@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel src/index.html --open",
-    "build": "rm -rf build && parcel build --no-source-maps src/index.html -d build"
+    "build": "rm -rf build && parcel build --no-source-maps src/index.html -d build",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "deploy-storybook": "storybook-to-ghpages"
   },
   "keywords": [],
   "author": "",
@@ -16,6 +19,14 @@
     "react-dom": "^16.13.1"
   },
   "devDependencies": {
-    "less": "^3.12.2"
+    "@babel/core": "^7.11.1",
+    "@storybook/addon-actions": "^5.3.19",
+    "@storybook/addon-links": "^5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "^5.3.19",
+    "@storybook/storybook-deployer": "^2.8.6",
+    "babel-loader": "^8.1.0",
+    "less": "^3.12.2",
+    "less-loader": "^6.2.0"
   }
 }
